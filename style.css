@@ -1,0 +1,44 @@
+.containerLocation{
+  margin-top:50px;
+  margin-left:50px;
+}
+
+.container{
+  width: 300px;
+  height: 30px;
+}
+
+.inputField{
+  height:100%;
+  width:100%;
+  margin-right: -45px;
+  padding-left: 35px;
+  display: inline-block;
+}
+
+.inputFieldFont{
+  font-size: 16px
+}
+
+.leftIcon{
+  display: inline-block;
+  position: absolute; /* important to position an inline-block element */
+  margin-top: 4px;
+  height: 30px;
+  width: 30px;
+  margin-left: 3px;
+  background-image: url(user.svg);
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.rightIcon{
+  display: inline-block;
+  position: absolute; /* important to position an inline-block element */
+  margin-top: 4px;
+  height: 30px;
+  width: 30px;
+  background-image: url(view.svg);
+  background-repeat: no-repeat;
+  background-color: white;
+}
